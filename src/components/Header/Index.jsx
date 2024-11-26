@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import "./index.scss"
+import ContactInformaton from "./Contact-information";
+
 
 const Header = () => {
     const [menuBolean, setMenuBolean] = useState(null)
@@ -26,6 +28,7 @@ const Header = () => {
     }, [windowWidth])
 
     return(
+    <>
         <header>
             <div className="container">
                 <div className="header__row">
@@ -33,16 +36,17 @@ const Header = () => {
                         Горин Иван, Frontend Developer React
                     </div> 
                     <ul className={menuBolean}>
-                        <li><a href="!#">Контактная информация</a></li>
-                        <li><a href="!#">О себе</a></li>
-                        <li><a href="!#">Навыки</a></li>
-                        <li><a href="!#">портфолио</a></li>
-                        <li><a href="!#">Образование</a></li>
+                        <li className="link"><a href="#AboutMe">Обо мне</a></li>
+                        <li className="link"><a href="!#">Навыки</a></li>
+                        <li className="link"><a href="!#">портфолио</a></li>
+                        <li className="link"><a href="!#">Образование</a></li>
                     </ul>
                     <button className="menu__Btn" onClick={swipeStateMenu}></button>
                 </div>
             </div>
         </header>
+        <ContactInformaton />
+     </>
     )
 }
  
