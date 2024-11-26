@@ -1,0 +1,65 @@
+.ContactInformaton{
+    padding: 40px 55px;
+    background-color:  #141413;
+    color: white;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    opacity: 0;
+    animation: appearance 1s  ease-in forwards;
+    
+    h1{
+        padding-bottom: 40px;
+        font-size: 24px;
+    }
+
+    .Contact-information_row{
+        display: flex;
+        flex-direction: column;
+        row-gap: 35px;
+
+        .Contact-information_block{
+            display: flex;
+            align-items: center;
+            column-gap: 20px;
+
+            a{
+                color: white;
+                font-size: 16px;
+            }
+            
+            h2{
+                font-size: 16px;
+            }
+
+            a:hover{
+                color: rgb(172, 172, 172);
+            }
+
+            .mail{
+                font-size: 20px;
+            }
+
+            .phone{
+                font-size: 20px;
+            }
+
+            .telegramm{
+                font-size: 20px;
+            }
+
+            .time{
+                font-size: 20px;
+            }
+        }
+
+        @keyframes appearance {
+            1%{
+                opacity: 0;
+            }
+
+            100%{
+                opacity: 1;
+            }
+        }
+    }
+
+}
