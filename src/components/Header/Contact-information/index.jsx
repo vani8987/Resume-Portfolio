@@ -5,7 +5,7 @@ import "./index.scss"
 
 const ContactInformaton = () => {
     return (
-         <div className="ContactInformaton" data-aos="flip-down">
+         <div className="ContactInformaton" id="AboutMe">
             <div className="container">
                 <h1>Контактная информация</h1>
                 <div className="Contact-information_row" id="Contact-information">

@@ -26,10 +26,10 @@ const Header = () => {
         }
 
     }, [windowWidth])
-
+    
     return(
     <>
-        <header>
+        <header >
             <div className="container">
                 <div className="header__row">
                     <div className="header__title">
@@ -37,7 +37,7 @@ const Header = () => {
                     </div> 
                     <ul className={menuBolean}>
                         <li className="link"><a href="#AboutMe">Обо мне</a></li>
-                        <li className="link"><a href="!#">Навыки</a></li>
+                        <li className="link"><a href="#Skils">Навыки</a></li>
                         <li className="link"><a href="!#">портфолио</a></li>
                         <li className="link"><a href="!#">Образование</a></li>
                     </ul>

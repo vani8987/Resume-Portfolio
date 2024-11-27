@@ -1,8 +1,11 @@
 import AboutMe from "./About me";
 
+
 const Main = () => {
     return ( 
-        <AboutMe />
+        <>
+            <AboutMe />
+        </>
      );
 }
  

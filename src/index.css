@@ -108,3 +108,13 @@ legend {
     padding: 0px 10px;
     margin: 0 auto;
 }
+
+@keyframes appearance {
+    1%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
