@@ -1,0 +1,18 @@
+[
+    {
+        "Title": "База данных",
+        "LinkGit": "https://github.com/vani8987/Base-Data",
+        "Time": "1.5 недели",
+        "technologies": "React, typescript, Git, scss",
+        "achievements": "сделал пагинацию, поиск, добавление нового пользователя и подробную информацию о пользователе",
+        "id": 1
+    },
+    {
+        "Title": "Сайт-резюме",
+        "LinkGit": "https://github.com/vani8987/Resume-Portfolio",
+        "Time": "3 дня",
+        "technologies": "React (библиотеки: react-icons, react-slick), JavaScript, Git, scss, json", 
+        "achievements": "сделал адаптивную верстку, слайдер проектов, сделал несколько анимаций",
+        "id": 2
+    }
+]

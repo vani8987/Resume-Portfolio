@@ -38,8 +38,8 @@ const Header = () => {
                     <ul className={menuBolean}>
                         <li className="link"><a href="#AboutMe">Обо мне</a></li>
                         <li className="link"><a href="#Skils">Навыки</a></li>
-                        <li className="link"><a href="!#">портфолио</a></li>
-                        <li className="link"><a href="!#">Образование</a></li>
+                        <li className="link"><a href="#project">портфолио</a></li>
+                        <li className="link"><a href="#footer">Образование</a></li>
                     </ul>
                     <button className="menu__Btn" onClick={swipeStateMenu}></button>
                 </div>

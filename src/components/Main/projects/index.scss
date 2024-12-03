@@ -1,0 +1,68 @@
+.projects{
+    padding: 120px 60px;
+    background-color: black;
+    color: white;
+    opacity: 0;
+    animation: appearance 1s  ease-in forwards;
+    animation-delay: 3s;
+
+    .headings{
+        padding-bottom: 40px;
+        font-size: 24px;
+        text-align: left;
+    }
+    
+    .project{
+        display: flex;
+        flex-direction: column;
+        padding-left: 55px;
+        width: 100%;
+
+        h1{
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .Body__project{
+            display: flex;
+            flex-direction: column;
+            padding-top: 30px;
+
+            ul{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding-left: 18px;
+
+                li{
+                    list-style: disc;
+
+                    h2{
+                        display: flex;
+                        column-gap: 10px;
+                        overflow: hidden;
+
+                        a{
+                            color: white;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .Slider{
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    @media (max-width: 600px) {
+        .project{
+            display: flex;
+            flex-direction: column;
+            padding-left: 10px;
+            width: 100%;
+        }
+    }
+}
