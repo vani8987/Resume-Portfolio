@@ -1,10 +1,10 @@
 [
     {
-        "Title": "База данных",
-        "LinkGit": "https://github.com/vani8987/Base-Data",
+        "Title": "Todo-list",
+        "LinkGit": "https://github.com/vani8987/todo-list",
         "Time": "1.5 недели",
         "technologies": "React, typescript, Git, scss",
-        "achievements": "сделал пагинацию, поиск, добавление нового пользователя и подробную информацию о пользователе",
+        "achievements": "сделал добаление/удаление задачи, смена темы, отключение/включения снега(это всё сохраняется), так же добавлен поиск",
         "id": 1
     },
     {
