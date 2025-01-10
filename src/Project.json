@@ -10,9 +10,17 @@
     {
         "Title": "Сайт-резюме",
         "LinkGit": "https://github.com/vani8987/Resume-Portfolio",
-        "Time": "3 дня",
+        "Time": "4 дня",
         "technologies": "React (библиотеки: react-icons, react-slick), JavaScript, Git, scss, json", 
         "achievements": "сделал адаптивную верстку, слайдер проектов, сделал несколько анимаций",
         "id": 2
+    },
+    {
+        "Title": "Сайт погоды",
+        "LinkGit": "github.com/vani8987/weather-forecast",
+        "Time": "7 дня",
+        "technologies": "React (библиотеки: react-icons), API (OpenWeatherAPI), TypeScript, Git, Tailwind", 
+        "achievements": "Использовал API для поиска погоды по городу, сделал адаптив",
+        "id": 3
     }
 ]
