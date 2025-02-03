@@ -19,8 +19,8 @@
         "Title": "Сайт погоды",
         "LinkGit": "github.com/vani8987/weather-forecast",
         "Time": "7 дня",
-        "technologies": "React (библиотеки: react-icons), API (OpenWeatherAPI), TypeScript, Git, Tailwind", 
-        "achievements": "Использовал API для поиска погоды по городу, сделал адаптив",
+        "technologies": "React (библиотеки: react-icons), API (OpenWeatherAPI), TypeScript, Git, Tailwind, jest", 
+        "achievements": "Использовал API для поиска погоды по городу, сделал адаптив, добавил тесты",
         "id": 3
     }
 ]
