@@ -87,6 +87,22 @@
                 }
             }
 
+            .Tailwind{
+                width: 0%;
+                background-color: #252525;
+                animation: AnimSkilSCSS 1s ease forwards;
+                animation-delay: 2.5s;
+                @keyframes AnimSkilSCSS {
+                    1%{
+                        width: 0%;
+                    } 
+
+                    100%{
+                        width: 85%;
+                    }
+                }
+            }
+
             .Html{
                 width: 0%;
                 background-color: #252525;
@@ -119,7 +135,7 @@
                 }
             }
 
-            .Git{
+            .GitHub{
                 width: 0%;
                 background-color: #252525;
                 animation: AnimSkilGit 1s ease  forwards;
@@ -131,6 +147,22 @@
 
                     100%{
                         width: 85%;
+                    }
+                }
+            }
+
+            .Jest{
+                width: 0%;
+                background-color: #252525;
+                animation: AnimSkilJest 1s ease  forwards;
+                animation-delay: 2.5s;
+                @keyframes AnimSkilJest {
+                    1%{
+                        width: 0%;
+                    } 
+
+                    100%{
+                        width: 75%;
                     }
                 }
             }

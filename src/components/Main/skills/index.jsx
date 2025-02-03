@@ -26,6 +26,12 @@ const Skils = () => {
                         <p>90%</p>
                     </div>
                     <div className="Container__technologies">
+                        <div className="skils Tailwind">
+                            <p>Tailwind</p>
+                        </div>
+                        <p>85%</p>
+                    </div>
+                    <div className="Container__technologies">
                         <div className="skils Html">
                             <p>Html</p>
                         </div>
@@ -38,8 +44,14 @@ const Skils = () => {
                         <p>90%</p>
                     </div>
                     <div className="Container__technologies">
-                        <div className="skils Git">
-                            <p>Git</p>
+                        <div className="skils Jest">
+                            <p>Jest</p>
+                        </div>
+                        <p>75%</p>
+                    </div>
+                    <div className="Container__technologies">
+                        <div className="skils GitHub">
+                            <p>GitHub</p>
                         </div>
                         <p>85%</p>
                     </div>
